@@ -1,9 +1,6 @@
 require 'pry'
-
-
 def count_elements(array)
   # code goes here
-  # binding.pry
   hash = {}
   array.map do |element|
     if !hash[element]
